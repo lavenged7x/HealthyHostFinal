@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Antibióticos"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uso de Antibiotico"
+            android:id="@+id/spanish_antibiotic_usage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Levaquin"
+            android:id="@+id/spanish_antibiotic_levaquin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amoxicilina"
+            android:id="@+id/spanish_antibiotic_amoxicillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azitromicina"
+            android:id="@+id/spanish_antibiotic_azithromycin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metronidazol"
+            android:id="@+id/spanish_antibiotic_metronidazole"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eritromicina"
+            android:id="@+id/spanish_antibiotic_erythromycin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doxiciclina"
+            android:id="@+id/spanish_antibiotic_doxycycline"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cefalexina"
+            android:id="@+id/spanish_antibiotic_cephalexin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flucloxacilina"
+            android:id="@+id/spanish_antibiotic_flucloxacillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ceftriaxona"
+            android:id="@+id/spanish_antibiotic_ceftriaxone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penicilina G"
+            android:id="@+id/spanish_antibiotic_penicillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ofloxacino"
+            android:id="@+id/spanish_antibiotic_ofloxacin"/>
+
+
+    </TableLayout>
+</ScrollView>

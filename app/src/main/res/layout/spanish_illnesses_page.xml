@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enfermedades Communes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fascitis Necrotizante(bacteria carnívora)"
+            android:id="@+id/spanish_illness_flesh"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coccidioidomicosis (Fiebre del Valle)"
+            android:id="@+id/spanish_illness_fever"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impétigo"
+            android:id="@+id/spanish_illness_impetigo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faringitis Estreptocócica"
+            android:id="@+id/spanish_illness_throat"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infección del Tracto Urinario(UTI)"
+            android:id="@+id/spanish_illness_uti"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clamidia"
+            android:id="@+id/spanish_illness_chlam"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Herpes Tipo 2"
+            android:id="@+id/spanish_illness_herpes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Virus Sincicial Respiratorio (VSR)"
+            android:id="@+id/spanish_illness_rsv"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infecciones de los Oídos"
+            android:id="@+id/spanish_illness_ear"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mononucleosis"
+            android:id="@+id/spanish_illness_mono"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helicobacter Pylori"
+            android:id="@+id/spanish_illness_pylori"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enfermedad de Lyme"
+            android:id="@+id/spanish_illness_lyme"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mastitis"
+            android:id="@+id/spanish_illness_mastitis"/>
+
+
+    </TableLayout>
+</ScrollView>

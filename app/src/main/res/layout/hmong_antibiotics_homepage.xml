@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hmong Antibios"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hmong Antibiotic Usage"
+            android:id="@+id/hmong_antibiotic_usage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Levaquin"
+            android:id="@+id/hmong_antibiotic_levaquin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amoxicillin"
+            android:id="@+id/hmong_antibiotic_amoxicillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azithromycin"
+            android:id="@+id/hmong_antibiotic_azithromycin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metronidazole"
+            android:id="@+id/hmong_antibiotic_metronidazole"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erythromycin"
+            android:id="@+id/hmong_antibiotic_erythromycin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doxyxycline"
+            android:id="@+id/hmong_antibiotic_doxycycline"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cephalexin"
+            android:id="@+id/hmong_antibiotic_cephalexin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flucloxacillin"
+            android:id="@+id/hmong_antibiotic_flucloxacillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ceftriaxone"
+            android:id="@+id/hmong_antibiotic_ceftriaxone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penicillin G"
+            android:id="@+id/hmong_antibiotic_penicillin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ofloxacin"
+            android:id="@+id/hmong_antibiotic_ofloxacin"/>
+
+
+    </TableLayout>
+</ScrollView>
+
