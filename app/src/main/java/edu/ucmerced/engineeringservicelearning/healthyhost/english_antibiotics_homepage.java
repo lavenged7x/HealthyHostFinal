@@ -11,7 +11,6 @@ import android.widget.Button;
  */
 
 public class english_antibiotics_homepage extends AppCompatActivity implements View.OnClickListener {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +52,6 @@ public class english_antibiotics_homepage extends AppCompatActivity implements V
         Button english_antibiotic_ofloxacin = findViewById(R.id.english_antibiotic_ofloxacin);
         english_antibiotic_ofloxacin.setOnClickListener(this);
     }
-
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.english_antibiotic_usage:

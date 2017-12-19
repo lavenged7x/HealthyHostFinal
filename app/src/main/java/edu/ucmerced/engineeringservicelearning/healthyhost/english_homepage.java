@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class english_homepage extends AppCompatActivity implements View.OnClickListener {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -27,8 +26,7 @@ public class english_homepage extends AppCompatActivity implements View.OnClickL
 
     Button english_settings= findViewById(R.id.english_settings);
     english_settings.setOnClickListener(this);
-}
-
+    }
     public void onClick(View v){
         switch(v.getId()){
             case R.id.english_antibiotics_homepage:

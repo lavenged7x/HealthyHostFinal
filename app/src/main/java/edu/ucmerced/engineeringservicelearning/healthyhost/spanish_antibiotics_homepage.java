@@ -51,7 +51,6 @@ public class spanish_antibiotics_homepage extends AppCompatActivity implements V
 
         Button spanish_antibiotic_ofloxacin = findViewById(R.id.spanish_antibiotic_ofloxacin);
         spanish_antibiotic_ofloxacin.setOnClickListener(this);
-
     }
     public void onClick(View v) {
         switch (v.getId()) {

@@ -22,7 +22,6 @@ public class english_antibiotic_usage extends AppCompatActivity implements View.
         Button english_antibiotic_dont = findViewById(R.id.english_antibiotic_dont);
         english_antibiotic_dont.setOnClickListener(this);
     }
-
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.english_antibiotic_do:
